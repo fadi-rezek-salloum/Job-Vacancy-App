@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;900&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.hero__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(15, 15, 15, 0.7)), url('./images/hero.jpg');
+    
+    min-width: 100%;
+    min-height: 90vh;
+
+    text-shadow: 0.5px 0.5px 6px rgb(0, 0, 0);
+}
+
+.about__img {
+    width: 100%;
+    height: 430px;
+
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.header__user-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.jobs__list-date {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
